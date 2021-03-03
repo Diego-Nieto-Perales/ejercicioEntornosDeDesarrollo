@@ -5,6 +5,8 @@ public class Metodos {
 	public static void main(String[] args) {
 		
 		System.out.println(concatenacionDeStrings("hola ", "que tal?"));
+		
+		System.out.println(caracter(49));
 
 	}
 
@@ -16,6 +18,14 @@ public class Metodos {
 		return concatenacion ;
 	}
 	
+	
+	static char caracter (int numero) {
+		
+		char retorno = (char) numero;
+		
+		return retorno;
+		
+	}
 	
 	
 	
