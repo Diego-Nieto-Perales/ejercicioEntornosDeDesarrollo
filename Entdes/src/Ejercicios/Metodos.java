@@ -7,6 +7,8 @@ public class Metodos {
 		System.out.println(concatenacionDeStrings("hola ", "que tal?"));
 		
 		System.out.println(caracter(49));
+		
+		System.out.println(caracterConDecimal('a'));
 
 	}
 
@@ -26,6 +28,18 @@ public class Metodos {
 		return retorno;
 		
 	}
+	
+	
+	static double caracterConDecimal (char caracter) {
+		
+		
+		double retorno = caracter;
+		
+		
+		return retorno;
+	}
+	
+	
 	
 	
 	
