@@ -9,6 +9,8 @@ public class Metodos {
 		System.out.println(caracter(49));
 		
 		System.out.println(caracterConDecimal('a'));
+		
+		multiplosDeTres(60);
 
 	}
 
@@ -40,7 +42,28 @@ public class Metodos {
 	}
 	
 	
-	
+	static void multiplosDeTres (int numeroFinal) {
+		
+		int multiplos = 0;
+		
+//		while(multiplos <= numeroFinal) {
+//			
+//			System.out.println(multiplos);
+//			multiplos += 3;
+//			
+//		}
+		
+		
+		for (int i = 0; i <= numeroFinal; ) {
+			
+			System.out.println(i);
+			i +=3;
+			
+		}
+		
+		
+		
+	}
 	
 	
 }
