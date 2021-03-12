@@ -4,13 +4,21 @@ public class Metodos {
 
 	public static void main(String[] args) {
 		
-		System.out.println(concatenacionDeStrings("hola ", "que tal?"));
+//		System.out.println(concatenacionDeStrings("hola ", "que tal?"));
+//		
+//		System.out.println(caracter(49));
+//		
+//		System.out.println(caracterConDecimal('a'));
 		
+<<<<<<< HEAD
 		System.out.println(caracter(49));
 		
 		System.out.println(caracterConDecimal('a'));
 		
 		multiplosDeTres(60);
+=======
+		metodo(51,5); 
+>>>>>>> refs/heads/nueva-funcionalidad
 
 	}
 
@@ -42,6 +50,7 @@ public class Metodos {
 	}
 	
 	
+<<<<<<< HEAD
 	static void multiplosDeTres (int numeroFinal) {
 		
 		int multiplos = 0;
@@ -64,6 +73,22 @@ public class Metodos {
 		
 		
 	}
+=======
+	static void metodo(int numeroInicial, int numeroResta) {
+		
+		while ( numeroInicial > 0 ) {
+			
+			System.out.println(numeroInicial);
+			numeroInicial -= numeroResta;
+			
+			
+		}
+		
+		
+		
+	}
+	
+>>>>>>> refs/heads/nueva-funcionalidad
 	
 	
 }
