@@ -4,11 +4,13 @@ public class Metodos {
 
 	public static void main(String[] args) {
 		
-		System.out.println(concatenacionDeStrings("hola ", "que tal?"));
+//		System.out.println(concatenacionDeStrings("hola ", "que tal?"));
+//		
+//		System.out.println(caracter(49));
+//		
+//		System.out.println(caracterConDecimal('a'));
 		
-		System.out.println(caracter(49));
-		
-		System.out.println(caracterConDecimal('a'));
+		metodo(51,5); 
 
 	}
 
@@ -40,6 +42,19 @@ public class Metodos {
 	}
 	
 	
+	static void metodo(int numeroInicial, int numeroResta) {
+		
+		while ( numeroInicial > 0 ) {
+			
+			System.out.println(numeroInicial);
+			numeroInicial -= numeroResta;
+			
+			
+		}
+		
+		
+		
+	}
 	
 	
 	
