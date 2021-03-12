@@ -10,15 +10,15 @@ public class Metodos {
 //		
 //		System.out.println(caracterConDecimal('a'));
 		
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		System.out.println(caracter(49));
 		
 		System.out.println(caracterConDecimal('a'));
 		
 		multiplosDeTres(60);
-=======
+//=======
 		metodo(51,5); 
->>>>>>> refs/heads/nueva-funcionalidad
+//>>>>>>> refs/heads/nueva-funcionalidad
 
 	}
 
@@ -50,7 +50,7 @@ public class Metodos {
 	}
 	
 	
-<<<<<<< HEAD
+//<<<<<<< HEAD
 	static void multiplosDeTres (int numeroFinal) {
 		
 		int multiplos = 0;
@@ -73,7 +73,7 @@ public class Metodos {
 		
 		
 	}
-=======
+
 	static void metodo(int numeroInicial, int numeroResta) {
 		
 		while ( numeroInicial > 0 ) {
@@ -88,7 +88,7 @@ public class Metodos {
 		
 	}
 	
->>>>>>> refs/heads/nueva-funcionalidad
+
 	
 	
 }
